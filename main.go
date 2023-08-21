@@ -15,7 +15,8 @@ func main() {
 	// result := sorting.MinHeapSort(arr)
 	// result := sorting.MaxHeapSort(arr)
 	// sorting.Quicksort(arr, 0, len(arr)-1)
-	sorting.Shellsort(arr)
+	// sorting.Shellsort(arr)
+	sorting.CountingSort(arr, 10)
 
 	fmt.Println(arr)
 	// fmt.Println(result)
