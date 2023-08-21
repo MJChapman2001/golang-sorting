@@ -12,9 +12,10 @@ func main() {
 	// sorting.InsertionSortR(arr, len(arr)-1)
 	// sorting.SelectionSort(arr)
 	// result := sorting.MergeSort(arr)
-	result := sorting.MinHeapSort(arr)
+	// result := sorting.MinHeapSort(arr)
 	// result := sorting.MaxHeapSort(arr)
+	sorting.Quicksort(arr, 0, len(arr)-1)
 
-	// fmt.Println(arr)
-	fmt.Println(result)
+	fmt.Println(arr)
+	// fmt.Println(result)
 }
